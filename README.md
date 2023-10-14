@@ -11,7 +11,7 @@ A $t-(v, k, \lambda)$ combinatorial block design is a pair $(V, B)$:
 * Let $D = \lambda \times {V \choose k}$ be a (multi)set consisting of all the $k$-sets of $V$ (each repeated $\lambda$ times).
 * $B \subset D$, the (multi)set of _blocks_ of the design, is a (multi)set such that for all $T \in D$, we have:
 
-$$|{ K \in B \, | \, T \in K }| = \lambda$$
+$$|\{ K \in B \, | \, T \in K \}| = \lambda$$
 
 A necessary condition for the existence of a $t-(v, k, \lambda)$ design is that the number of blocks:
 
