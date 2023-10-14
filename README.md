@@ -4,15 +4,15 @@
 
 **Article:** [Block Design (Wikipedia).](https://en.wikipedia.org/wiki/Block_design#General_balanced_designs_(t-designs))
 
-A $t-(v, k, \lambda)$ combinatorial block design is a pair $(V, B)$:
+A $`t-(v, k, \lambda)`$ combinatorial block design is a pair $`(V, B)`$:
 
-* $t < k < v$ and $\lambda$ are all positive integers.
-* $V$, the set of _points_ of the design, is a set of size $v$, typically taken to be $`\{0, \ldots, v-1\}`$.
-* Let $D = \lambda \times {V \choose k}$ be a (multi)set consisting of all the $k$-sets of $V$ (each repeated $\lambda$ times).
-* $B \subset D$, the (multi)set of _blocks_ of the design, is a (multi)set such that for all $T \in D$, we have:
+* $`t < k < v`$ and $\lambda$ are all positive integers.
+* $`V`$, the set of _points_ of the design, is a set of size $`v`$, typically taken to be $`\{0, \ldots, v-1\}`$.
+* Let $`D = \lambda \times {V \choose k}`$ be a (multi)set consisting of all the $`k`$-sets of $`V`$ (each repeated $`\lambda`$ times).
+* $`B \subset D`$, the (multi)set of _blocks_ of the design, is a (multi)set such that for all $`T \in D`$, we have:
 
 ```math
-|\{ K \in B \, | \, T \in K \}| = \lambda
+\left|\left\{ K \in B \, \middle| \, T \in K \right\}\right| = \lambda
 ```
 
 A necessary condition for the existence of a $t-(v, k, \lambda)$ design is that the number of blocks:
