@@ -7,7 +7,7 @@
 A $t-(v, k, \lambda)$ combinatorial block design is a pair $(V, B)$:
 
 * $t < k < v$ and $\lambda$ are all positive integers.
-* $V$, the set of _points_ of the design, is a set of size $v$, typically taken to be `$\{0, \ldots, v-1\}$`.
+* $V$, the set of _points_ of the design, is a set of size $v$, typically taken to be $`\{0, \ldots, v-1\}`$.
 * Let $D = \lambda \times {V \choose k}$ be a (multi)set consisting of all the $k$-sets of $V$ (each repeated $\lambda$ times).
 * $B \subset D$, the (multi)set of _blocks_ of the design, is a (multi)set such that for all $T \in D$, we have:
 
