@@ -98,7 +98,7 @@ to which an element $`s \in S`$ is a member of $`S`$.
 There are many notations to write fuzzy sets. For the purposes of this project, we represent them by:
 
 ```math
-(S, m) = \{m(s) * s\, \middle| \, s \in S\}
+(S, m) = \left\{m(s) * s\, \middle| \, s \in S\right\}
 ```
 
 If $`m(s) = c`$ for all $`s \in S`$, then we simply write:
