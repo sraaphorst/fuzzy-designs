@@ -151,7 +151,7 @@ with constant $`\frac{1}{3}`$, which we call a 3-uniformly fuzzy block set, name
 B_f = \frac{1}{3} {V \choose 3}.
 ```
 
-### Fuzzy uniformly block sets in STS
+### Uniformly fuzzy block sets in STS
 
 This leads to the question:
 
