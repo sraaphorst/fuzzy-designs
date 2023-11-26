@@ -1,4 +1,4 @@
-# fuzzy_designs_min.py
+# fuzzy_designs_cbc.py
 # By Sebastian Raaphorst, 2023.
 #
 # 1. Satisfy the t-coverage property; and
@@ -42,6 +42,7 @@ def find_min_fuzzy_design(t: int, v: int, k: int, lmb: int = 1) -> Optional[Solu
     solver = pywraplp.Solver.CreateSolver('CBC')
     if not solver:
         raise ValueError('Could not create solver.')
+    # solver.EnableOutput()
 
     # Create variables for all the blocks. These map
     block_variables = {b: solver.NumVar(0, lmb, f'b_{b}') for b in potential_blocks}
