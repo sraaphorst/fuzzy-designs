@@ -1,5 +1,11 @@
 absl-py==2.0.0
 glop==0.1.1
+glpk==0.4.7
 numpy==1.26.0
 ortools==9.7.2996
+ply==3.11
 protobuf==4.24.4
+PySCIPOpt==4.3.0
+scipy==1.11.4
+setuptools==68.2.0
+wheel==0.41.2

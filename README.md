@@ -1,5 +1,24 @@
 # Fuzzy Designs
 
+## Preamble
+
+To get GLPK and SCIP working on OS X, you will need to install them:
+```bash
+$ brew install scip
+$ brew install glpk
+```
+
+Then you will need to configure them to be found:
+```
+# SCIP and GLPK
+export SCIPOPTDIR=/opt/homebrew/Cellar/scip/8.0.4
+export CPATH=/opt/homebrew/include:/opt/homebrew/include/scip:
+export LIBRARY_PATH=/opt/homebrew/opt/glpk/lib:$LIBRARY_PATH
+```
+
+After this, you can install them using `requirements.txt`.
+
+
 ## Combinatorial Block Designs
 
 **Article:** [Block Design (Wikipedia).](https://en.wikipedia.org/wiki/Block_design#General_balanced_designs_(t-designs))

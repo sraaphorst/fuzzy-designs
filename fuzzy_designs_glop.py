@@ -1,4 +1,4 @@
-# fuzzy_designs_sat.py
+# fuzzy_designs_glop.py
 # By Sebastian Raaphorst, 2023.
 #
 # Simply satisfy the t-set coverage property.
